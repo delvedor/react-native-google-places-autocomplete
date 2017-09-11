@@ -763,8 +763,7 @@ GooglePlacesAutocomplete.defaultProps = {
   onTimeout: () => console.warn('google places autocomplete: request timeout'),
   query: {
     key: 'missing api key',
-    language: 'en',
-    types: 'geocode',
+    language: 'en'
   },
   GoogleReverseGeocodingQuery: {},
   GooglePlacesSearchQuery: {
